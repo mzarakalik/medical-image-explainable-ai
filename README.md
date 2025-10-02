@@ -101,4 +101,23 @@ Vision Transformers significantly outperformed CNNs in OCT classification, achie
 
 ---
 
+## How to Run
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/mzarakalik/medical-image-explainable-ai.git
+   cd medical-image-explainable-ai
+2. **Install dependencies**
+   Make sure you have Python 3.9+ installed, then run:
+   ```bash
+   pip install -r requirements.txt
+3. **Run the notebooks**
+   - [CNN_implementation_OCT.ipynb](notebooks/CNN_implementation_OCT.ipynb) – Baseline CNN/ResNet model  
+   - [VIT_Implementation_OCT.ipynb](../../releases) – Full Vision Transformer implementation (download from Releases)
+
+4. **Explore results**
+   - Trained models achieve **94.8% accuracy with ViT** and **85.0% accuracy with CNN**  
+   - Visualizations (SHAP, LIME, Grad-CAM, Attention maps) are included inside the notebooks
+
+
 ## Repository Structure
