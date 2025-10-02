@@ -119,5 +119,39 @@ Vision Transformers significantly outperformed CNNs in OCT classification, achie
    - Trained models achieve **94.8% accuracy with ViT** and **85.0% accuracy with CNN**  
    - Visualizations (SHAP, LIME, Grad-CAM, Attention maps) are included inside the notebooks
 
+---
+
+## Results
+
+### Classification Performance
+- **CNN**: ~85.0% accuracy  
+- **ViT**: ~94.8% accuracy  
+
+**Confusion Matrix (CNN vs ViT)**
+<p align="center">
+  <img src="results/confusion_matrixs.png" width="500"/>
+</p>
+
+**ROC Curve (CNN vs ViT)**
+<p align="center">
+  <img src="results/roc_curve.png" width="500"/>
+</p>
+
+**Training Curves**
+<p align="center">
+  <img src="results/cnn_accuracy_loss.png" width="400"/>
+  <img src="results/vit_accuracy_loss.png" width="400"/>
+</p>
+
+### Interpretability (XAI)
+- CNN: Grad-CAM visualizations  
+- ViT: Attention Heatmaps, SHAP, LIME  
+
+<p align="center">
+  <img src="results/Attention Heatmap.pdf" width="250"/>
+  <img src="results/VIT-Heatmap.pdf" width="250"/>
+  <img src="results/LIME.pdf" width="250"/>
+  <img src="results/SHAP.pdf" width="250"/>
+</p>
 
 ## Repository Structure
