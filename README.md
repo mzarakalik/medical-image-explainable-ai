@@ -108,6 +108,31 @@ Vision Transformers significantly outperformed CNNs in OCT classification, achie
 
 ---
 
+## Dataset
+
+This project uses the **OCT2017 dataset**, a publicly available collection of retinal OCT (Optical Coherence Tomography) images released by [Kermany et al., 2018].  
+The dataset contains **109,309 labeled images** across 4 classes:
+
+- **CNV** – Choroidal Neovascularization  
+- **DME** – Diabetic Macular Edema  
+- **DRUSEN** – Drusen deposits  
+- **NORMAL** – Healthy retina  
+
+### Train/Validation/Test Split
+- **Training set:** 83,484 images  
+- **Validation set:** 16,835 images  
+- **Test set:** 1,000 images (250 per class)  
+
+### Preprocessing
+- Images were resized to 224×224  
+- Normalized to [0,1]  
+- Data augmentation applied (random flips, rotations, brightness/contrast shifts)  
+
+> Reference:  
+> Kermany DS, Goldbaum M, Cai W, et al. *Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning.* Cell. 2018;172(5):1122-1131.e9.  
+
+---
+
 ## How to Run
 
 1. **Clone the repository**
