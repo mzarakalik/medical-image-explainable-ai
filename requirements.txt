@@ -1,0 +1,9 @@
+tensorflow>=2.12
+keras
+numpy
+pandas
+matplotlib
+scikit-learn
+shap
+lime
+jupyter
