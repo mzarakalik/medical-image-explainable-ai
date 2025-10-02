@@ -144,14 +144,14 @@ Vision Transformers significantly outperformed CNNs in OCT classification, achie
 </p>
 
 ### Interpretability (XAI)
+
 - CNN: Grad-CAM visualizations  
 - ViT: Attention Heatmaps, SHAP, LIME  
 
-<p align="center">
-  <img src="results/Attention Heatmap.pdf" width="250"/>
-  <img src="results/VIT-Heatmap.pdf" width="250"/>
-  <img src="results/LIME.pdf" width="250"/>
-  <img src="results/SHAP.pdf" width="250"/>
-</p>
+📄 [Attention Heatmap (PDF)](results/Attention%20Heatmap.pdf)  
+📄 [ViT Heatmap (PDF)](results/VIT-%20Heatmap.pdf)  
+📄 [LIME (PDF)](results/LIME.pdf)  
+📄 [SHAP (PDF)](results/SHAP.pdf)  
+
 
 ## Repository Structure
