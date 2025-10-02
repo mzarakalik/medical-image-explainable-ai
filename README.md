@@ -92,7 +92,12 @@ Vision Transformers significantly outperformed CNNs in OCT classification, achie
 - **`notebooks/CNN_Medical_Image_Comparison.ipynb`**  
   – CNN/ResNet baseline with **85.0% accuracy**  
   – Grad-CAM visualization for interpretability  
-  – Benchmark for ViT comparison  
+  – Benchmark for ViT comparison
+
+>  Note: The full Vision Transformer notebook with outputs is large 
+> and provided as a [release asset](../../releases).  
+> The `/notebooks/` folder contains the smaller, clean versions 
+> for easy browsing on GitHub.
 
 ---
 
