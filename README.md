@@ -3,14 +3,6 @@
 This repository contains a comparative study of **Vision Transformers (ViT)** and **Convolutional Neural Networks (CNN/ResNet baseline)** for medical image classification on the **OCT2017 dataset**.  
 Both models are evaluated with **Explainable AI (XAI) techniques** such as SHAP, LIME, Grad-CAM, and attention visualization.
 
----
-
-<p align="center">
-  <img src="results/confusion_matrix.png" width="350"/>
-  <img src="results/VIT_Heatmap.png" width="350"/>
-</p>
-
----
 
 ## Comparative Results
 
