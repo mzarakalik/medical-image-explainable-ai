@@ -5,6 +5,13 @@ Both models are evaluated with **Explainable AI (XAI) techniques** such as SHAP,
 
 ---
 
+<p align="center">
+  <img src="results/confusion_matrix.png" width="350"/>
+  <img src="results/VIT_Heatmap.png" width="350"/>
+</p>
+
+---
+
 ## Comparative Results
 
 ### Model Performance (Test Set)
@@ -107,10 +114,14 @@ Vision Transformers significantly outperformed CNNs in OCT classification, achie
    ```bash
    git clone https://github.com/mzarakalik/medical-image-explainable-ai.git
    cd medical-image-explainable-ai
-2. **Install dependencies**
+   ```
+
+2. **Install dependencies**  
    Make sure you have Python 3.9+ installed, then run:
    ```bash
    pip install -r requirements.txt
+   ```
+
 3. **Run the notebooks**
    - [CNN_implementation_OCT.ipynb](notebooks/CNN_implementation_OCT.ipynb) – Baseline CNN/ResNet model  
    - [VIT_Implementation_OCT.ipynb](../../releases) – Full Vision Transformer implementation (download from Releases)
@@ -129,7 +140,7 @@ Vision Transformers significantly outperformed CNNs in OCT classification, achie
 
 **Confusion Matrix (CNN vs ViT)**
 <p align="center">
-  <img src="results/confusion_matrixs.png" width="500"/>
+  <img src="results/confusion_matrix.png" width="500"/>
 </p>
 
 **ROC Curve (CNN vs ViT)**
@@ -148,10 +159,49 @@ Vision Transformers significantly outperformed CNNs in OCT classification, achie
 - CNN: Grad-CAM visualizations  
 - ViT: Attention Heatmaps, SHAP, LIME  
 
-📄 [Attention Heatmap (PDF)](results/Attention%20Heatmap.pdf)  
-📄 [ViT Heatmap (PDF)](results/VIT-%20Heatmap.pdf)  
+📄 [Attention Heatmap (PDF)](results/Attention_Heatmap.pdf)  
+📄 [ViT Heatmap (PDF)](results/VIT_Heatmap.pdf)  
 📄 [LIME (PDF)](results/LIME.pdf)  
 📄 [SHAP (PDF)](results/SHAP.pdf)  
 
+---
 
 ## Repository Structure
+
+```
+├── notebooks/
+│   ├── CNN_implementation_OCT.ipynb
+│   └── VIT_Implementation_OCT.ipynb  (full notebook in Releases)
+├── results/
+│   ├── confusion_matrix.png
+│   ├── roc_curve.png
+│   ├── cnn_accuracy_loss.png
+│   ├── vit_accuracy_loss.png
+│   ├── Attention_Heatmap.pdf
+│   ├── VIT_Heatmap.pdf
+│   ├── LIME.pdf
+│   └── SHAP.pdf
+├── requirements.txt
+├── README.md
+└── LICENSE
+```
+
+---
+
+## Citation
+
+If you use this repository in your research, please cite:
+
+```bibtex
+@misc{zarakalik2025medicalimage,
+  author       = {Zarakalik, M.},
+  title        = {Vision Transformer vs CNN for OCT Classification with Explainable AI},
+  year         = {2025},
+  howpublished = {\url{https://github.com/mzarakalik/medical-image-explainable-ai}}
+}
+```
+
+---
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
